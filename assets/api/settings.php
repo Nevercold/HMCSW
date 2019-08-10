@@ -11,4 +11,3 @@ function setsetting(PDO $pdo, $settingkey, $settingvalue){
     $statement->execute(array($settingvalue, $settingkey));
 }
 
-d
