@@ -1,4 +1,10 @@
 <?php
+/**
+ * Copyright (c) 2019 Moritz Walter
+ * All rights reserved.
+ *
+ * File created on 10.8.2019 at 7:47
+ */
 
 define('mysql-ip', '');
 define('mysql-user', '');
