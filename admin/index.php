@@ -6,4 +6,7 @@
  * File created on 11.8.2019 at 3:20
  */
 
+if(islogged() == false) {
+    header("Location: ".getsetting($pdo, "domain"));
+}
 
