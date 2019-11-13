@@ -1,5 +1,7 @@
 {
   "require": {
-    "laravel/installer": "@dev"
+    "phpmailer/phpmailer": "^6.1",
+    "hackzilla/password-generator": "^1.4",
+    "google/recaptcha": "^1.2"
   }
 }
