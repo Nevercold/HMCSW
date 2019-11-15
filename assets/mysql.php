@@ -18,3 +18,4 @@ try {
 } catch (PDOException $e) {
     die('No connection to DB');
 }
+
