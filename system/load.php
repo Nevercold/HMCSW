@@ -3,9 +3,9 @@
  * Copyright (c) 2019 Moritz Walter
  * All rights reserved.
  *
- * File created on 16.11.2019 at 19:38
+ * File created on 16.11.2019 at 20:17
  */
-
+echo "loaded";
 // load system
 require __DIR__ . '/../system/main.php';
 require __DIR__ . '/../system/connection.php';
@@ -38,7 +38,5 @@ $m = new plugin();
 // theme class
 $m = new theme();
 
-// Password Generator
-$pwgenerator = new RequirementPasswordGenerator();
 
 
