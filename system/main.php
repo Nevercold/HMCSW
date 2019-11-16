@@ -5,5 +5,13 @@
  *
  * File created on 16.11.2019 at 19:8
  */
-echo __DIR__;
 
+namespace Main;
+
+
+class main
+{
+    public function test()
+    {
+    }
+}
