@@ -3,9 +3,9 @@
  * Copyright (c) 2019 Moritz Walter
  * All rights reserved.
  *
- * File created on 16.11.2019 at 19:38
+ * File created on 16.11.2019 at 19:40
  */
-include __DIR__ . '../system/load.php';
+include __DIR__ . '/../system/load.php';
 $pwgenerator
     ->setLength(20)
     ->setOptionValue(RequirementPasswordGenerator::OPTION_UPPER_CASE, true)
