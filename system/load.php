@@ -3,14 +3,15 @@
  * Copyright (c) 2019 Moritz Walter
  * All rights reserved.
  *
- * File created on 16.11.2019 at 20:17
+ * File created on 17.11.2019 at 9:52
  */
-echo "loaded";
 // load system
 require __DIR__ . '/../system/main.php';
 require __DIR__ . '/../system/connection.php';
 require __DIR__ . '/../system/plugin.php';
 require __DIR__ . '/../system/theme.php';
+
+require __DIR__ . '/../assets/mysql.php';
 
 // load composer
 require __DIR__ . '/../vendor/autoload.php';
@@ -27,16 +28,16 @@ use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
 // connection class
-$m = new connection();
+$c = new connection();
 
 // main class
 $m = new main();
 
 // plugin class
-$m = new plugin();
+$p = new plugin();
 
 // theme class
-$m = new theme();
+$t = new theme();
 
 
 
