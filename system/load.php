@@ -3,7 +3,7 @@
  * Copyright (c) 2019 Moritz Walter
  * All rights reserved.
  *
- * File created on 17.11.2019 at 9:52
+ * File created on 17.11.2019 at 10:24
  */
 // load system
 require __DIR__ . '/../system/main.php';
@@ -12,6 +12,7 @@ require __DIR__ . '/../system/plugin.php';
 require __DIR__ . '/../system/theme.php';
 
 require __DIR__ . '/../assets/mysql.php';
+require __DIR__ . '/../assets/config.php';
 
 // load composer
 require __DIR__ . '/../vendor/autoload.php';

@@ -3,7 +3,7 @@
  * Copyright (c) 2019 Moritz Walter
  * All rights reserved.
  *
- * File created on 17.11.2019 at 9:52
+ * File created on 17.11.2019 at 10:24
  */
 
 namespace HMCSW\Main;
@@ -20,6 +20,18 @@ class main
             while ($row = $statement->fetch()) {
                 return $row['value'];
             }
+        } else {
+            return false;
+        }
+    }
+
+    public function blockedmail($email, $pdo)
+    {
+        $statement = $pdo->prepare("SELECT * FROM blockedmail WHERE email = ? LIMIT 1");
+        $statement->execute(array($email));
+        $count = $statement->rowCount();
+        if ($count == 1) {
+            return true;
         } else {
             return false;
         }
