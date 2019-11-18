@@ -1,0 +1,12 @@
+{
+  "name": "Materialize",
+  "description": "materialize",
+  "url": "",
+  "type": "theme",
+  "cssfiles": [
+    "file.css"
+  ],
+  "jsfiles": [
+    "file.js"
+  ]
+}
