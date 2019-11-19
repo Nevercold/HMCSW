@@ -1,5 +1,5 @@
 # HMCSW
 
-hosting maschine control software
+hosting machine control software
 
 
